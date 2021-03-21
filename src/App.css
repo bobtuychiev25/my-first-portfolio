@@ -1,0 +1,111 @@
+
+ul{
+  display: flex;
+
+}
+
+#Home-background{
+  background-color: #81d4b8;
+  padding: 70px 0;
+}
+
+#Homebutton{
+  border-radius: 10px;
+  margin: 0 15px;
+  background-color: black;
+
+
+}
+
+#Homebutton:hover{
+  transform: rotateX(360deg) ;
+  transition-duration: 0.25s;
+  background-color: black;
+    color: black;
+
+}
+
+#Homebutton #kkk{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+#Homebutton #kkk:hover{
+  color: white;
+  font-weight: bold;
+
+}
+
+
+div p{
+  text-align: justify;
+  transition-duration: 1s;
+}
+
+
+#textt:hover{
+  box-shadow: 10px 10px #b8b8b8;
+}
+
+#Namee{
+
+  text-shadow: 6px 2px #5d5c5c;
+}
+#abbout{
+
+  background-color: black;
+  color: white;
+  text-align: justify;
+  text-indent: 2em;
+}
+#LLL{
+
+  background-color: black;
+}
+
+
+.keyframe{
+  animation: move 3s infinite linear;
+
+}
+
+@keyframes move{
+  0%   { color: yellow; }
+  50%   { color: black; }
+  100% { color: yellow; }
+}
+
+
+#PPP{
+  background-color: black;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#edge{
+  border: 20px solid black;
+  background-color: #81d4b8;
+}
+
+#LLink:hover{
+    color: yellow;
+}
+
+#LLink{
+  color: black;
+  word-wrap: break-word;
+  animation: color 5s infinite linear;
+  animation-delay: 5s;
+}
+@keyframes color{
+  0%   { color: yellow; }
+  50%   { color: black; }
+  100% { color: yellow; }
+}
+
+#Contactbutton{
+
+    background-color: black;
+    color: white;
+}
